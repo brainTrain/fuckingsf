@@ -37,10 +37,10 @@ h1 {
     -moz-animation:    float-sf 3s infinite; /* Fx 5+ */
     -o-animation:      float-sf 3s infinite; /* Opera 12+ */
     animation:         float-sf 3s infinite; /* IE 10+ */
-    -webkit-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-     -moz-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-       -o-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-          animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+    -webkit-animation-timing-function: cubic-bezier(.51,0,.54,1);
+       -moz-animation-timing-function: cubic-bezier(.51,0,.54,1);
+         -o-animation-timing-function: cubic-bezier(.51,0,.54,1);
+            animation-timing-function: cubic-bezier(.51,0,.54,1);
 }
 #i {
     left: 10%;
@@ -49,17 +49,17 @@ h1 {
     -moz-animation:    float-sf 2.8s infinite; /* Fx 5+ */
     -o-animation:      float-sf 2.8s infinite; /* Opera 12+ */
     animation:         float-sf 2.8s infinite; /* IE 10+ */
-    -webkit-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-     -moz-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-       -o-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
-          animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+    -webkit-animation-timing-function: cubic-bezier(.51,0,.54,1);
+       -moz-animation-timing-function: cubic-bezier(.51,0,.54,1);
+         -o-animation-timing-function: cubic-bezier(.51,0,.54,1);
+            animation-timing-function: cubic-bezier(.51,0,.54,1);
 }
 @-webkit-keyframes float-sf {
     0% {
         -webkit-transform: translate(0, 0px); 
     }
     50% {
-        -webkit-transform: translate(0, 15px); 
+        -webkit-transform: translate(0, 20px); 
     }
     100% {
         -webkit-transform: translate(0, 0px); 
@@ -70,7 +70,7 @@ h1 {
         transform: translate(0, 0px); 
     }
     50% {
-        transform: translate(0, 15px); 
+        transform: translate(0, 20px); 
     }
     100% {
         transform: translate(0, 0px); 
