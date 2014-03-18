@@ -29,24 +29,30 @@ h1 {
     border-radius: 10px;
     border: 2px dashed #ccc;
     box-shadow: 0 0 0 4px #333; 
-
-   -webkit-transition: all 0.25s ease-in-out;
-   -moz-transition:    all 0.25s ease-in-out;
-   -ms-transition:     all 0.25s ease-in-out;
-   -o-transition:      all 0.25s ease-in-out;
-
-    -webkit-animation: float-sf 3s infinite; /* Safari 4+ */
-    -moz-animation:    float-sf 3s infinite; /* Fx 5+ */
-    -o-animation:      float-sf 3s infinite; /* Opera 12+ */
-    animation:         float-sf 3s infinite; /* IE 10+ */
 }
 #sf {
     right: 10%;
     top: 10%;
+    -webkit-animation: float-sf 3s infinite; /* Safari 4+ */
+    -moz-animation:    float-sf 3s infinite; /* Fx 5+ */
+    -o-animation:      float-sf 3s infinite; /* Opera 12+ */
+    animation:         float-sf 3s infinite; /* IE 10+ */
+    -webkit-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+     -moz-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+       -o-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+          animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
 }
 #i {
     left: 10%;
-    top: 10%;
+    top: 8%;
+    -webkit-animation: float-sf 2.8s infinite; /* Safari 4+ */
+    -moz-animation:    float-sf 2.8s infinite; /* Fx 5+ */
+    -o-animation:      float-sf 2.8s infinite; /* Opera 12+ */
+    animation:         float-sf 2.8s infinite; /* IE 10+ */
+    -webkit-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+     -moz-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+       -o-animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
+          animation-timing-function: cubic-bezier(.51,-0.31,.54,1);
 }
 @-webkit-keyframes float-sf {
     0% {
