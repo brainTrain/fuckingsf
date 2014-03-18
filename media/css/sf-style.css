@@ -1,0 +1,41 @@
+.outer-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: url("/media/img/hydrant-50.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+h1 {
+    cursor: default;
+    font-size: 100px;
+    font-family: Sans-Serif;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: -moz-none;
+
+}
+.letters {
+    position: absolute;
+    color: #ccc;
+    text-shadow: 0 -1px 1px #6D6D6D;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    border: 2px dashed #ccc;
+    box-shadow: 0 0 0 4px #333; 
+
+}
+#sf {
+    right: 10%;
+    top: 10%;
+}
+#i {
+    left: 10%;
+    top: 10%;
+}

@@ -1,0 +1,45 @@
+.nav-dude {
+    position: absolute;
+    top: 0px;
+    left: -12%;
+    height: 100%;
+    width: 12%;
+    background-color: #222;
+
+}
+
+.outer-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: url(sf0.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+}
+h1 {
+    color: #DDD;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    text-shadow: 0 -1px 1px #696969;
+    font-size: 100px;
+    font-family: Sans-Serif;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+}
+h1:hover {
+    color: white;
+}
+div#preload {
+    display: none;
+}
